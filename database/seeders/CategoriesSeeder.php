@@ -17,7 +17,7 @@ class CategoriesSeeder extends Seeder
     public function run()
     { {
             categories::create([
-                'category_image' => '433704.jpg',
+                'category_img' => '433704.jpg',
                 'category_name' => 'Korean Cake',
                 'category_desc' => 'idk'
             ]);
@@ -25,11 +25,32 @@ class CategoriesSeeder extends Seeder
 
             categories::create(
                 [
-                    'category_image' => '433719.jpg',
+                    'category_img' => '433719.jpg',
                     'category_name' => 'Kue Potong',
                     'category_desc' => 'idk'
                 ]
+
+                
             );
+            categories::create(
+                [
+                    'category_img' => '433719.jpg',
+                    'category_name' => 'Kue Spikoe',
+                    'category_desc' => 'idk'
+                ]
+
+                
+            );
+            categories::create(
+                [
+                    'category_img' => '433719.jpg',
+                    'category_name' => 'Kue Bento',
+                    'category_desc' => 'idk'
+                ]
+
+                
+            );
+            
         }
     }
 }
